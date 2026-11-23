@@ -1,0 +1,54 @@
+:root {
+  /* Palette: Warm Academic Notebook */
+  --bg-page: #f7f5f0;
+  --bg-surface: #ffffff;
+  --bg-surface-muted: #f1eee7;
+  --bg-surface-subtle: #faf9f6;
+
+  --ink-primary: #172033;
+  --ink-secondary: #4a5568;
+  --ink-muted: #718096;
+  --ink-inverse: #ffffff;
+
+  /* Semantic Role Accents */
+  --accent-primary: #1d54b5;
+  --accent-primary-hover: #174494;
+  --accent-primary-soft: #eaf1fc;
+
+  --accent-teal: #0e7c7b;
+  --accent-teal-soft: #e6f5f4;
+
+  --accent-amber: #b45309;
+  --accent-amber-soft: #fef5e7;
+
+  --accent-green: #15803d;
+  --accent-green-soft: #e8f7ee;
+
+  --accent-red: #c23030;
+  --accent-red-soft: #fdecec;
+
+  /* Borders & Elevation */
+  --border-subtle: #e6e2d8;
+  --border-strong: #d3cdc0;
+  --shadow-xs: 0 1px 2px rgba(23, 32, 51, 0.04);
+  --shadow-sm: 0 2px 8px rgba(23, 32, 51, 0.06);
+  --shadow-md: 0 6px 20px rgba(23, 32, 51, 0.08);
+
+  /* Typography */
+  --font-sans: 'Noto Sans JP', -apple-system, BlinkMacSystemFont, 'Hiragino Kaku Gothic ProN',
+    'Yu Gothic', sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  /* Radius & Layout */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-pill: 999px;
+
+  --container-max: 720px;
+  --bottom-nav-height: 64px;
+  --top-bar-height: 56px;
+
+  /* Transitions */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+}
